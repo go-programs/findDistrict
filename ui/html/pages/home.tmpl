@@ -1,0 +1,16 @@
+{{define "title"}} FindDistrict {{end}}
+
+{{define "main"}}
+    {{if .}}
+        <p style="color:#0b1b6b">
+            <b>{{.}}.</b> Click on another place in Kerala to find district.
+        </p>
+    {{else}}
+        <p style="color:#0b1b6b">
+            Find district by clicking on any place in Kerala
+        </p>
+    {{end}}
+    <a href="/">
+        <img src="/static/img/state.png" alt="WTF is alt?" width="638" height="825" ismap> 
+    </a>
+{{end}}
